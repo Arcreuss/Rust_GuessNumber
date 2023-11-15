@@ -19,8 +19,6 @@ fn ask_number(key: u8) -> bool {
         }
     };
 
-    println!("I wrote {}", input);
-
     input = input.trim().to_string();
 
     match input.parse::<u8>() {
